@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>New Giveaway</title></head>
+<body>
+<h2>Create Giveaway</h2>
+<form method="post" action="/giveaway/new">
+    <input name="title" placeholder="Title" required><br><br>
+    <textarea name="description" placeholder="Description"></textarea><br><br>
+    <input name="winners_count" type="number" value="1" min="1"><br><br>
+    <input name="channel_username" placeholder="@channel (optional)"><br><br>
+    <button type="submit">Create</button>
+</form>
+</body>
+</html>

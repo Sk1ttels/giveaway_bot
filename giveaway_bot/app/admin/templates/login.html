@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Admin Login</title></head>
+<body>
+<h2>Admin Login</h2>
+<p style="color:red;">{{ err }}</p>
+<form method="post" action="/login">
+    <input name="username" placeholder="login" required><br><br>
+    <input name="password" placeholder="password" type="password" required><br><br>
+    <button type="submit">Login</button>
+</form>
+</body>
+</html>

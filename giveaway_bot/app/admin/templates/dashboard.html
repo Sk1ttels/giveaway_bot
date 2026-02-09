@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Dashboard</title></head>
+<body>
+<h1>Giveaways</h1>
+<a href="/giveaway/new">+ New giveaway</a>
+<hr>
+{% for g in giveaways %}
+<div>
+    <b>#{{ g.id }} — {{ g.title }}</b>
+    <div>Winners: {{ g.winners_count }} | Active: {{ g.is_active }}</div>
+    <a href="/codes/{{ g.id }}">Promo codes</a>
+</div>
+<hr>
+{% endfor %}
+</body>
+</html>
