@@ -7,3 +7,6 @@ sqlalchemy==2.0.27
 pydantic==2.5.3
 passlib[bcrypt]==1.7.4
 itsdangerous==2.1.2
+python-3.11.7
+
+
